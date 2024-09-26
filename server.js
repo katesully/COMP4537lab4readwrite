@@ -4,7 +4,7 @@ const express = require('express');
 class Server {
     constructor(routes) {
         this.app = express();
-        this.port = 3000;  
+        this.port = 3001;  
         this.routes = routes;
         this.setupRoutes();
     }
