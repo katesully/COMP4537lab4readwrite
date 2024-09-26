@@ -40,7 +40,7 @@ class App {
     constructor() {
         this.app = express();
         this.fileHandler = new FileHandler('file.txt'); // Specify the file name
-        this.port = 3000;  // You can change the port number
+        this.port = 4000;  
         this.setupRoutes();
     }
 
