@@ -1,5 +1,4 @@
-//LLMs were used in the creation of this code
-
+//LLMs were used in the creation of this code 
 const express = require('express');
 
 class Server {
@@ -17,6 +16,7 @@ class Server {
     start() {
         this.app.listen(this.port, () => {
             console.log(`Server is running on http://localhost:${this.port}`);
+            console.log(this.routes.router);
         });
     }
 }
